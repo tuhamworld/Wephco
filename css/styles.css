@@ -1,0 +1,448 @@
+
+/* HTML STYLE STARTS */
+html {
+    font-family: poppins;
+    font-size: 10px;
+}
+
+
+/*BODY STYLE STARTS */
+body {
+    font-size: 1.6rem;
+    font-family: poppins;
+}
+
+
+/* WEBPAGE BOXED-LAYOUT */
+.center-element {
+    margin-left: 8%;
+    margin-right: 3%;    
+}
+
+
+/* HEADER STYLE STARTS */
+
+.center-element > #header {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .center-element > #header {
+      flex-direction: column;
+    }
+  }
+
+
+
+/* LOGO STYLE STARTS */
+.center-element > #header > #logo {
+    margin: 1rem;
+}
+
+/*NAVIGATION STYLE STARTSS*/
+#navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    #navigation {
+      flex-direction: column;
+      
+    }
+  }
+
+#navigation > a {
+    color: #202020;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    margin: 1rem;
+    
+}
+
+
+/*HEADER BUTTON STYLE STARTS */
+
+#header-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    #header-button {
+      flex-direction: column;
+    }
+  }
+
+#header-button > span > a {
+    /* margin-left: 2.5rem; */
+    text-decoration: none;
+    color: #202020;
+    font-weight: 500;
+    
+} 
+
+#log-in {
+    border: solid 0.1rem black;
+    padding-left: 2.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2.8rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+
+}
+
+#get-started {
+    border: solid 0.1rem black;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem; 
+    background-color: black;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+   
+}
+
+#header-button > #get-started > a {
+    color: white;
+}
+
+
+/* HYPERLINKS STYLE */
+a:hover {
+    text-decoration: underline;
+    border-bottom: solid 1px;
+}
+
+
+/*MAIN SECTION STYLE STARTS */
+
+main > section.center-element > #container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    main > section.center-element > #container {
+      flex-direction: column;
+    }
+  }
+
+main > section > div > #buy-properties {   
+    margin-top: 20rem;
+}
+
+main > section > div > #buy-properties > h2 {
+   font-size: 3.9rem;
+   font-weight: 700;
+}
+
+main > section > div > #buy-properties > p {
+    font-size: 1.8rem;
+    margin-top: 0.1rem;
+    
+}
+
+main > section > div > #buy-properties > button {
+    background: black;
+    padding: 1.3rem 3.5rem;
+    margin: 1rem 0rem;
+    
+}
+
+main > section > div > #buy-properties > button > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    
+}
+
+#column-card > img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* TRUSTED BY COMPANIES STYLE STARTS */
+
+.center-element > #trusted-by {
+    margin-top : 4.5rem;
+}
+
+.center-element > #trusted-by > p {
+    text-align: center;
+    color: #797979;
+    margin-bottom: 4rem;
+    
+  
+}
+
+.center-element > #trusted-by > #trusted-logos {
+  display: flex;
+  justify-content: space-evenly;
+  
+ 
+}
+
+
+
+
+/* TRUSTED BY COMPANIES STYLE ENDS */
+
+
+
+/* WHY CHOOSE WEPHCO STYLE STARTS */
+
+.center-element > #why-choose {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+   
+}
+
+.center-element > #why-choose >  h2 {
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.center-element > #why-choose > #stats {
+    background-color: black;
+    color: white;
+    padding: 5rem 8rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+ @media (max-width: 800px) {
+    .center-element > #why-choose > #stats {
+      flex-direction: column;
+    }
+  }
+
+
+
+ #councils-number {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+
+#stats > #left-column {
+    padding-right: 50rem;
+}
+
+#stats > #left-column > p {
+    margin-bottom: 4rem;
+}
+
+
+#star-ratings > .fa-solid {
+    color: #fbca00;
+}
+
+.small-font {
+   
+    font-size: 1rem;
+}
+
+
+
+#four-thousand {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#right-column-below-font {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#forty-thousand-and-10 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;    
+    
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    #forty-thousand-and-10 {
+      flex-direction: column;
+    }
+  }
+
+#forty-thousand-and-10 > #satisfied-customers {
+    margin-right: 8rem;
+}
+
+#right-column {
+ border-left: 0.1rem solid #898989;
+ padding-left: 7rem;
+}
+
+#right-column > p {
+    margin-bottom: 6rem;
+}
+
+/* WHY CHOOSE WEPHCO STYLE ENDS */
+
+
+
+/* HOW TO GET A PROPERTY STYLE STARTS */
+
+
+.center-element > #get-property {
+    margin-top: 15rem;
+}
+
+.center-element > #get-property > h3 {
+    text-align: center;
+    font-size: 3rem;
+    word-spacing: 0.4rem;
+}
+
+.center-element > #get-property > #get-property-icons {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: 500;
+    padding: 40px;
+
+}
+
+/* circle icons */
+.black-circle {
+    width: 10px;
+    height: 10px;
+    background: #141414;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.gray-cirlce {
+    width: 10px;
+    height: 10px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    display: inline-block;
+  
+}
+
+/* HOW TO GET A PROPERTY STYLE ENDS */
+
+
+
+/* TESTIMONIAL STYLE STARTS */
+
+.center-element > #testimonials {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.center-element > #testimonials > h2 {
+    text-align: center;
+    font-size: 2.3rem;
+    justify-content: center;
+}
+
+
+#testimonial-block {
+    display: flex;
+    margin-top: 4rem;
+    flex-direction: row;
+   
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    #testimonial-block {
+      flex-direction: column;
+    }
+  }
+
+
+
+#client-say {
+    background-color: #141414;
+    background-image: url("/images/blockquote.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 1rem;
+    color: #fff;
+    font-size: 1.6rem;
+    padding-right: 7rem;
+    padding-left: 7rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    /* text-align: left; */
+ 
+}
+
+
+
+.testimonial-circle {
+    width: 5rem;
+    height: 5rem;
+    background-color: #e50914;
+    border-radius: 50%;
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    position: relative;
+    left: 7rem;
+ 
+}
+
+
+#customer-name {
+    margin-top: 7rem;
+}
+
+/* TESTIMONIAL STYLE ENDS */
+
+
+
+/* FOOTER STYLE STARTS */
+.center-element > #footer-copyright {
+    margin-top: 20rem;
+    margin-bottom: 5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    /* display: flex;
+    flex-direction: row; */
+
+}
+
+/* @media (max-width: 800px) {
+    .center-element > #footer-copyright {
+      flex-direction: column;
+    }
+  } */
+
+
+
+#footer-right-column {
+    text-align: right;
+}
+
+
+/* FOOTER STYLE ENDS */
+
+/* This style will still undergo certain modificationsin by me the nearest future. Upon completion of modification, this sentence line will be removed.
+
+Thank you*/
