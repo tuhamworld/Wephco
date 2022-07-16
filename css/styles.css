@@ -15,8 +15,8 @@ body {
 
 /* WEBPAGE BOXED-LAYOUT */
 .center-element {
-    margin-left: 8%;
-    margin-right: 3%;    
+    margin-left: 8rem;
+    margin-right: 3rem;    
 }
 
 
@@ -135,6 +135,7 @@ main > section.center-element > #container {
     flex-direction: row;
 }
 
+/* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
     main > section.center-element > #container {
       flex-direction: column;
@@ -193,20 +194,11 @@ main > section > div > #buy-properties > button > a {
 .center-element > #trusted-by > #trusted-logos {
   display: flex;
   justify-content: space-evenly;
-  
- 
 }
 
 
 
-
-/* TRUSTED BY COMPANIES STYLE ENDS */
-
-
-
-/* WHY CHOOSE WEPHCO STYLE STARTS */
-
-.center-element > #why-choose {
+section.center-element > #why-choose {
     margin-top: 10rem;
     margin-bottom: 10rem;
    
@@ -254,8 +246,7 @@ main > section > div > #buy-properties > button > a {
     color: #fbca00;
 }
 
-.small-font {
-   
+span.small-font {
     font-size: 1rem;
 }
 
@@ -321,8 +312,14 @@ main > section > div > #buy-properties > button > a {
     text-align: center;
     font-weight: 500;
     padding: 40px;
-
 }
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .center-element > #get-property > #get-property-icons {
+      flex-direction: column;
+    }
+  }
 
 /* circle icons */
 .black-circle {
@@ -428,11 +425,11 @@ main > section > div > #buy-properties > button > a {
 
 }
 
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
     .center-element > #footer-copyright {
       flex-direction: column;
     }
-  } */
+  }
 
 
 
@@ -443,6 +440,4 @@ main > section > div > #buy-properties > button > a {
 
 /* FOOTER STYLE ENDS */
 
-/* This style will still undergo certain modificationsin by me the nearest future. Upon completion of modification, this sentence line will be removed.
-
-Thank you*/
+/* This style is still undergoing certain modificationsin. Upon completion of modification, this sentence line will be removed.*/
