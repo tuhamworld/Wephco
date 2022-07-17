@@ -193,7 +193,13 @@ main > section > div > #buy-properties > button > a {
 
 .center-element > #trusted-by > #trusted-logos {
   display: flex;
-  justify-content: space-evenly;
+ justify-content: space-evenly;
+ padding-right: 1em;
+}
+
+
+.center-element > #trusted-by > #trusted-logos > .trusted-single-logo {
+    margin-right: 0.5em;
 }
 
 
@@ -440,4 +446,6 @@ span.small-font {
 
 /* FOOTER STYLE ENDS */
 
-/* This style is still undergoing certain modificationsin. Upon completion of modification, this sentence line will be removed.*/
+/* This style will still undergo certain modifications in the nearest future. Upon completion of modification, this sentence line will be removed.
+
+Thank you*/
