@@ -1,7 +1,7 @@
 
 /* HTML STYLE STARTS */
 html {
-    font-family: poppins;
+    font-family: 'poppins';
     font-size: 10px;
 }
 
@@ -9,14 +9,19 @@ html {
 /*BODY STYLE STARTS */
 body {
     font-size: 1.6rem;
-    font-family: poppins;
+    font-family: 'poppins';
+    overflow-x: hidden;
+    width: 100%;
 }
 
 
 /* WEBPAGE BOXED-LAYOUT */
 .center-element {
-    margin-left: 8rem;
-    margin-right: 3rem;    
+    /* margin-left: 6rem;
+    margin-right: 4rem;   */
+
+    padding-right: 3rem;
+    padding-left: 5rem;
 }
 
 
@@ -130,14 +135,18 @@ a:hover {
 
 /*MAIN SECTION STYLE STARTS */
 
-main > section.center-element > #container {
+main > section.first-container {
+    padding-left: 6rem;
+}
+
+main > section.first-container > #container {
     display: flex;
     flex-direction: row;
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
-    main > section.center-element > #container {
+    main > section.first-container > #container {
       flex-direction: column;
     }
   }
@@ -166,6 +175,7 @@ main > section > div > #buy-properties > button {
 
 main > section > div > #buy-properties > button > a {
     text-decoration: none;
+    font-family: poppins;
     color: white;
     font-size: 1.4rem;
     
@@ -192,14 +202,16 @@ main > section > div > #buy-properties > button > a {
 }
 
 .center-element > #trusted-by > #trusted-logos {
-  display: flex;
+display: flex;
  justify-content: space-evenly;
- padding-right: 1em;
+ padding-right: 1rem;
+ margin-left: -1.2rem;
+
 }
 
 
 .center-element > #trusted-by > #trusted-logos > .trusted-single-logo {
-    margin-right: 0.5em;
+    margin-right: 0.5rem;
 }
 
 
