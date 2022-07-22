@@ -1,7 +1,12 @@
+/* Fonts Import */
+
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
 
 /* HTML STYLE STARTS */
 html {
-    font-family: 'poppins';
+    /* font-family: 'poppins'; */
+    font-family: 'Circular Std', sans-serif;                                      
     font-size: 10px;
 }
 
@@ -9,7 +14,8 @@ html {
 /*BODY STYLE STARTS */
 body {
     font-size: 1.6rem;
-    font-family: 'poppins';
+    /* font-family: 'poppins'; */
+    font-family: 'Circular Std', sans-serif;
     overflow-x: hidden;
     width: 100%;
 }
